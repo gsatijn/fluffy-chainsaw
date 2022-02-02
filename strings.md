@@ -38,4 +38,9 @@ name_short = first_name[0] + '. ' + last_name_len
 name_short
 chant = (first_name + '! ') * 3 + (first_name + '!')
 chant
-good_chant = ?
+string_a = 'Ruud! Ruud! Ruud! Ruud! '
+string_b = 'Ruud! Ruud! Ruud! Ruud!'
+if string_a == 'Ruud! Ruud! Ruud! Ruud! ':
+    print('string_b != string_a')
+good_chant = string_b
+good_chant
